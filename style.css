@@ -1,0 +1,122 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+    background-color: #111827;
+    display: flex;
+    
+}
+.formulario{
+    display: flex;
+    margin-left: 300px;
+}
+
+.img{
+    width: 480px;
+    height: 476px;
+    margin-right: px;
+    margin-top: 274px;
+
+}
+.login{
+    background-color: white;
+    width: 480px;
+    height: 476px; 
+    margin-top: 294px;
+    margin-left: 194px;
+}
+input{
+
+    width: 350px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+    cursor: pointer;    
+    
+}
+button{
+    width: 400px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.i{
+    /* padding-bottom: 12px; */
+    background-image: url(img/EnvelopeSimple.svg);
+    background-repeat: no-repeat; 
+    background-position: 10px;
+    padding-left: 40px;
+}
+.n{
+    background-image: url(img/Lock.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+    
+}
+
+
+p{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.bt{
+    background-color: #7180B9;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+.h3{
+    font-family: 'Roboto';
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.bt2{
+    width: 200px;
+    height: 48px;
+    background-color: #7180B9;
+    /* display: ; */
+    border: none;
+    margin-left: 80px;
+    border-radius: 5px;
+    background-image: url(img/GithubLogo.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;font-family: 'Roboto';
+    font-size: 16px;
+}
+.nb{
+    display: flex;
+    border: none;
+}
+.lin{
+    width: 124px;
+}
+button:hover{
+    background-color: #9dace6;
+}
+input:hover{
+    background: rgba(135, 152, 220, 0.32);
+}
+.g1{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    position: absolute;
+}
+.ponto{
+    background-color: #0073B0;
+    height: 16px;
+    width: 16px ;
+    border-radius: 500px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 275px ;
+
+}
